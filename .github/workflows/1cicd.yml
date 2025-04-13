@@ -21,7 +21,7 @@ jobs:
 
   security-check:   
     runs-on: ubuntu-latest
-    needs: compile  
+    needs: compile #needs use for run this 2nd job (securuty-check) on after 1st job(comlpile)  
   
     steps :
     - uses: actions/checkout@v4
